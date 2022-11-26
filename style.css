@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*  Styling for container */
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5em;
+    display: flex;
+
+}
+
+
+/* image-container */
+.image-container {
+    position: relative;
+    max-width: 100%;
+    max-height: 100vh;
+    /* border: 5px solid red; */
+
+}
+
+.img {
+    height: 550px;
+}
+
+/* hello */
+
+.hello {
+    position: absolute;
+    top: .5em;
+    left: 15.3em;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #323232;
+}
+
+/* heading */
+.heading {
+    padding: 3em 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: #323232;
+}
+
+
+/* p */
+p{
+    font-size: 1rem;
+    padding: 2em 1em;
+}
+
+
+/* buttons */
+.buttons {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+button {
+    width: 100%;
+    padding: 1.2em ;
+    background-color: #323232;
+    color: rgb(235, 231, 231);
+    border-radius: 20px;
+    margin: 5px;
+    font-size: .7rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* icons */
+.icons{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    padding: 0 .1em;
+    
+
+   
+}
+.icons i{
+    margin:  0 1em ;
+
+}
+
+/* mobile image */
+.img-last {
+    max-width: 70%;
+    margin: 0 auto;
+    display: none;
+}
+
+
+
+@media screen and (max-width: 850px){
+
+    .container {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2em;
+    display: flex;
+
+}
+
+    .img1{
+        display: none;
+    }
+
+    .img-last {
+        max-width: 70%;
+        margin: 0 auto;
+        display: block;
+        padding: 1em;
+    }
+
+     .img2{
+        width: 80%;
+        height: vh;
+     }
+    .hello {
+        position: absolute;
+        top: 0;
+        left: 1em;
+        font-size: 1.5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #323232;
+    }
+    .heading {
+        padding: 0em 1em;
+        margin-top: 70px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.5rem;
+        color: #323232;
+    }
+    p{
+        font-size: 1.2rem;
+        padding: 20px 0 20px  0;
+    }
+    .buttons {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: .5em 0;
+    }
+    button{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .icons{
+        width: 70%;
+        margin: 0 auto;
+        font-size: 1.2rem;
+        padding: 0 .7em;
+      
+    
+       
+    }
+}
